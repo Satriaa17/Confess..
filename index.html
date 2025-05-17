@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pernyataan Cinta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>HALOO Nikooo, KALO KITA SERIUS GIMANAAA INGIN MENJADI PACARKU</h1>
+        <img src="JPG/SATT.jpg" alt="Foto Aku">
+        
+        <!-- Love Button -->
+        <div class="love" onclick="showMessage()">
+            <span>❤️</span> <!-- Love Icon -->
+        </div>
+
+        <!-- Surat yang akan muncul setelah tombol "love" diklik -->
+        <div id="letter" class="letter">
+            <div class="letter-content">
+                <p>Makasih ya Niko udah nerima ❤️</p>
+                <div class="buttons">
+                    <button class="yes" onclick="showFinalQuestion()">Lanjut</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tambahkan di dalam .container, setelah .letter -->
+        <div id="confetti"></div>
+
+        <!-- Audio yang diputar -->
+        <audio id="bg-audio" loop>
+            <source src="HAHA.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <!-- Blur Background -->
+        <div id="blur" class="blur"></div>
+        <div class="love-bg"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

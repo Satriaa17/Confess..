@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../../Desktop/sekolah/satria"
+		},
+		{
+			"path": "../../../Desktop/sekolah/ZHAO"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "satria"
+	}
+}
